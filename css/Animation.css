@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.name:hover{
+    text-decoration: none;
+}
+
+.ch-item:hover .ch-info-front {
+    -webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    -moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    -o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    -ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+    -webkit-transform: rotate3d(1,0,0,0deg);
+    -moz-transform: rotate3d(1,0,0,0deg);
+    -o-transform: rotate3d(1,0,0,0deg);
+    -ms-transform: rotate3d(1,0,0,0deg);
+    transform: rotate3d(1,0,0,0deg);
+    opacity: 1;
+}
